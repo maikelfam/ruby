@@ -27,8 +27,8 @@ weather_data = {
   ]
 }
 
-today_weather = "Currently it is #{weather_data[:current][:temperature]} degrees and #{weather_data[:current][:conditions]}. "
-tomorrow_weather =  "Tomorrow it will be #{weather_data[:forecast][0][:temperature]} and #{weather_data[:forecast][0][:conditions]}. "
+today_weather = "Currently it is #{weather_data[:current][:temperature]} degrees and #{weather_data[:current][:conditions]}. \n"
+tomorrow_weather =  "Tomorrow it will be #{weather_data[:forecast][0][:temperature]} and #{weather_data[:forecast][0][:conditions]}. \n"
 two_day_weather = "The next day we will see #{weather_data[:forecast][1][:conditions]} skies, with a temperature of #{weather_data[:forecast][1][:temperature]}."
 
 message = today_weather + tomorrow_weather + two_day_weather
