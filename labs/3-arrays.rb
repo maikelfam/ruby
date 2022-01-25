@@ -14,7 +14,7 @@
 my_list = ["milk","eggs","bacon","beer"]
 friend_list = ["beer", "cookies", "apples"]
 
-#combine lists and remove duplicates
+#combine lists, sort, and remove duplicates
 shopping_list = my_list + friend_list
 final_list = shopping_list.sort.uniq
 puts final_list
